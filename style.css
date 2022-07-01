@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+#canvas{
+    margin-top: 50px;
+    width: 100%;
+    height: 450px;
+    border: 3px solid lightgrey;
+}
+#color{
+    display: flex;
+    margin-top: 50px;
+}
+.color{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 50%;
+
+}
+
+.eraser{
+    margin: 30px 0 0 20px;
+    padding: 5px 20px ;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: lightgrey ;
+
+}
+.width{
+    margin-left: 100px;
+}
